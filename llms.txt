@@ -1,0 +1,32 @@
+# DynamicQRCode
+> Dynamic QR code generator with tracking and analytics
+
+DynamicQRCode.app is a free dynamic QR code generator that creates QR codes you can update after printing. Track scans in real time, see geographic and device data, and change the destination URL without reprinting your QR codes.
+
+## Features
+- Dynamic QR codes with editable URLs
+- Real-time scan tracking
+- Scan analytics (location, device, browser)
+- Custom QR code colors
+- Download in PNG and SVG formats
+- Multiple QR types (URL, text, email, phone, WiFi, vCard)
+- No signup required for basic QR codes
+- Mobile-responsive design
+
+## Use Cases
+- Marketing flyers and print materials
+- Restaurant menus
+- Business cards
+- Event promotions
+- Product packaging
+- Retail and point-of-sale displays
+
+## For Advanced Features
+For bulk generation, logo embedding, API access, and campaign management, use QR Cheetah (qrcheetah.com).
+
+## Links
+- Homepage: https://dynamicqrcode.app
+- Terms: https://dynamicqrcode.app/terms.html
+- Privacy: https://dynamicqrcode.app/privacy.html
+- Full Platform: https://qrcheetah.com
+- Parent Company: https://snapitsoftware.com

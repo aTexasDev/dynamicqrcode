@@ -1,0 +1,1770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic QR Code Generator - Create Editable QR Codes That Never Expire</title>
+    <meta name="description" content="Learn the difference between static and dynamic QR codes. Create a free static QR code instantly, or upgrade to dynamic QR codes you can edit after printing with scan tracking and analytics.">
+    <meta name="keywords" content="dynamic qr code, static qr code, qr code generator, editable qr code, trackable qr codes, qr code maker, free qr generator, what is a dynamic qr code, static vs dynamic qr code">
+    <meta name="author" content="QR Cheetah">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://dynamicqrcode.app">
+    <link rel="icon" type="image/png" href="/qrcheetah-cute.png">
+    <link rel="apple-touch-icon" href="/qrcheetah-cute.png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Dynamic QR Code Generator - Editable QR Codes That Never Expire">
+    <meta property="og:description" content="Learn static vs dynamic QR codes. Create a free static QR code instantly or upgrade to editable dynamic QR codes with scan analytics.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dynamicqrcode.app">
+    <meta property="og:image" content="https://dynamicqrcode.app/og-image.png">
+    <meta property="og:site_name" content="Dynamic QR Code">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dynamic QR Code Generator - Editable QR Codes That Never Expire">
+    <meta name="twitter:description" content="Create a free static QR code or learn why dynamic QR codes are essential for business. Edit destinations, track scans, never reprint.">
+    <meta name="twitter:image" content="https://dynamicqrcode.app/og-image.png">
+
+    <!-- Schema.org - WebApplication -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Dynamic QR Code Generator",
+        "alternateName": "Free QR Code Maker",
+        "description": "Create static QR codes for free or upgrade to dynamic QR codes you can edit after printing. Change destination URLs anytime without reprinting. Track scans with analytics.",
+        "url": "https://dynamicqrcode.app",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "offers": [
+            {
+                "@type": "Offer",
+                "name": "Free Static QR Codes",
+                "price": "0",
+                "priceCurrency": "USD",
+                "description": "Unlimited free static QR codes generated in your browser"
+            },
+            {
+                "@type": "Offer",
+                "name": "Dynamic QR Codes",
+                "price": "0",
+                "priceCurrency": "USD",
+                "description": "Create up to 5 free dynamic QR codes with scan tracking"
+            }
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "QR Cheetah",
+            "url": "https://qrcheetah.com"
+        }
+    }
+    </script>
+
+    <!-- Schema.org - FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a dynamic QR code?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A dynamic QR code uses a short redirect URL instead of encoding the destination directly into the code pattern. This lets you change where the QR code sends people at any time — even after it has been printed on physical materials — without generating a new image. Dynamic QR codes also collect scan analytics like geographic location, device type, and scan frequency."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is a static QR code?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A static QR code embeds the destination URL directly into the QR pattern itself. Once created, the destination is permanently fixed and cannot be changed. Static QR codes work offline since no redirect server is involved, but they offer no analytics, no editing capability, and require reprinting if the destination changes."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between a static and dynamic QR code?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Static QR codes encode the URL directly into the pattern and cannot be changed after creation. Dynamic QR codes use a redirect URL that you control from a dashboard — you can change the destination, track scan analytics, and run A/B tests without reprinting. Dynamic codes also produce smaller, cleaner patterns because the encoded redirect URL is shorter than a full destination URL."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I edit a QR code after printing it?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Only if you created a dynamic QR code. The QR code image itself never changes — it always points to the same short redirect URL. From your QR Cheetah dashboard, you can change where that redirect sends users at any time. So you could print 10,000 flyers and still update the destination URL without reprinting a single one."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do dynamic QR codes expire?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Dynamic QR codes created through QR Cheetah never expire. The redirect remains active indefinitely on both free and paid plans. Your QR codes will continue working for as long as you need them."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why would I need a dynamic QR code instead of a static one?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Dynamic QR codes protect you against common business scenarios: if your website URL changes, if you switch domains, if a landing page goes offline, or if you simply want to update a promotion. Without a dynamic QR code, any of these situations would force you to reprint every piece of marketing material containing the old QR code. Dynamic codes also give you scan analytics so you can measure campaign performance."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I add a logo to my QR code?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. QR Cheetah lets you upload your company logo and embed it in the center of your QR code. The generator uses high error correction to keep the code scannable even with a logo overlay. You can also customize colors, dot shapes, and corner patterns to match your brand."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Schema.org - HowTo -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Create a Dynamic QR Code",
+        "description": "Step-by-step guide to creating an editable, trackable dynamic QR code using QR Cheetah.",
+        "step": [
+            {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Enter your destination URL",
+                "text": "Paste any URL — a website, PDF, video, restaurant menu, form, or app download link."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Choose Dynamic",
+                "text": "Select the Dynamic option to enable URL editing and scan analytics after creation."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Customize your design",
+                "text": "Add your logo, pick brand colors, and choose dot and corner styles to make your QR code on-brand."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "Download and track",
+                "text": "Download in SVG, PNG, or PDF format. Monitor scan analytics from your QR Cheetah dashboard."
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --accent: #f59e0b;
+            --accent-dark: #d97706;
+            --accent-light: #fbbf24;
+            --dark: #0f172a;
+            --dark-card: #1e293b;
+            --gray: #64748b;
+            --light: #f8fafc;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--dark);
+            color: white;
+            min-height: 100vh;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeInScale { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
+        .animate-fadeInUp { animation: fadeInUp 0.6s ease-out forwards; }
+        .animate-fadeInScale { animation: fadeInScale 0.5s ease-out forwards; }
+        .delay-100 { animation-delay: 0.1s; }
+        .delay-200 { animation-delay: 0.2s; }
+        .delay-300 { animation-delay: 0.3s; }
+        .opacity-0 { opacity: 0; }
+
+        /* Hero Section */
+        .hero {
+            background: rgba(245,158,11,0.08);
+            padding: 60px 20px 80px;
+            text-align: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+        .logo svg { width: 40px; height: 40px; }
+        .logo-text { color: var(--accent); }
+        h1 {
+            font-size: clamp(2rem, 6vw, 3.5rem);
+            font-weight: 800;
+            margin-bottom: 16px;
+            line-height: 1.1;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 40px;
+            max-width: 680px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* CTA Button */
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 20px 48px;
+            background: var(--accent);
+            color: var(--dark);
+            border-radius: 14px;
+            font-size: 1.25rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.2s;
+            box-shadow: 0 8px 30px rgba(245,158,11,0.3);
+        }
+        .hero-cta:hover {
+            background: var(--accent-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 40px rgba(245,158,11,0.4);
+        }
+        .hero-sub {
+            margin-top: 16px;
+            font-size: 0.95rem;
+            color: rgba(255,255,255,0.5);
+        }
+        .hero-sub a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        /* Trust Signals */
+        .trust-row {
+            margin-top: 32px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            color: rgba(255,255,255,0.5);
+            font-size: 0.9rem;
+        }
+
+        /* Content Sections */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        .section-title {
+            font-size: clamp(1.5rem, 4vw, 2rem);
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+        .section-subtitle {
+            text-align: center;
+            color: rgba(255,255,255,0.6);
+            margin-bottom: 48px;
+            font-size: 1.1rem;
+        }
+
+        /* QR Generator Tool */
+        .qr-generator {
+            background: var(--dark-card);
+            border: 2px solid rgba(245,158,11,0.3);
+            border-radius: 20px;
+            padding: 40px 32px;
+            margin-bottom: 80px;
+        }
+        .qr-generator h2 {
+            text-align: center;
+            font-size: 1.75rem;
+            margin-bottom: 8px;
+        }
+        .qr-generator .gen-subtitle {
+            text-align: center;
+            color: rgba(255,255,255,0.6);
+            margin-bottom: 32px;
+            font-size: 1rem;
+        }
+        .qr-input-row {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .qr-input-row input {
+            flex: 1;
+            padding: 14px 18px;
+            border: 2px solid rgba(255,255,255,0.15);
+            border-radius: 10px;
+            background: rgba(0,0,0,0.3);
+            color: white;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .qr-input-row input:focus {
+            border-color: var(--accent);
+        }
+        .qr-input-row input::placeholder {
+            color: rgba(255,255,255,0.35);
+        }
+        .qr-gen-btn {
+            padding: 14px 28px;
+            background: var(--accent);
+            color: var(--dark);
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .qr-gen-btn:hover {
+            background: var(--accent-dark);
+            transform: translateY(-2px);
+        }
+        .qr-output {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+        .qr-canvas-wrap {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            display: none;
+        }
+        .qr-canvas-wrap canvas {
+            display: block;
+        }
+        .qr-download-row {
+            display: none;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .qr-download-btn {
+            padding: 10px 20px;
+            background: rgba(245,158,11,0.15);
+            border: 1px solid rgba(245,158,11,0.3);
+            border-radius: 8px;
+            color: var(--accent);
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .qr-download-btn:hover {
+            background: rgba(245,158,11,0.25);
+            border-color: var(--accent);
+        }
+        .qr-static-note {
+            text-align: center;
+            color: rgba(255,255,255,0.5);
+            font-size: 0.85rem;
+            margin-top: 8px;
+        }
+        .qr-static-note a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .qr-static-note a:hover {
+            text-decoration: underline;
+        }
+        .qr-upgrade-banner {
+            margin-top: 24px;
+            background: rgba(245,158,11,0.08);
+            border: 1px solid rgba(245,158,11,0.2);
+            border-radius: 12px;
+            padding: 20px 24px;
+            text-align: center;
+            display: none;
+        }
+        .qr-upgrade-banner p {
+            color: rgba(255,255,255,0.7);
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+        }
+        .qr-upgrade-banner strong {
+            color: var(--accent);
+        }
+        .qr-upgrade-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--accent);
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .qr-upgrade-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Features Grid */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+            margin-bottom: 80px;
+        }
+        .feature {
+            background: var(--dark-card);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 32px 24px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        .feature:hover {
+            border-color: rgba(245,158,11,0.3);
+            transform: translateY(-4px);
+        }
+        .feature-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
+            background: rgba(245,158,11,0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin: 0 auto 16px;
+            color: var(--accent);
+        }
+        .feature h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        .feature p {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.6);
+            line-height: 1.6;
+        }
+
+        /* Understanding Section */
+        .understanding {
+            margin-bottom: 80px;
+        }
+        .understanding-content {
+            background: var(--dark-card);
+            border-radius: 16px;
+            padding: 40px 32px;
+            border: 1px solid rgba(255,255,255,0.08);
+            line-height: 1.8;
+            color: rgba(255,255,255,0.8);
+        }
+        .understanding-content h3 {
+            color: white;
+            font-size: 1.2rem;
+            margin: 28px 0 12px;
+        }
+        .understanding-content h3:first-child {
+            margin-top: 0;
+        }
+        .understanding-content p {
+            margin-bottom: 16px;
+            font-size: 0.95rem;
+        }
+
+        /* Dynamic vs Static */
+        .comparison-section { margin-bottom: 80px; }
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+        .comp-card {
+            background: var(--dark-card);
+            border-radius: 16px;
+            padding: 32px;
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+        .comp-card.recommended {
+            border: 2px solid var(--accent);
+            background: rgba(245,158,11,0.05);
+            position: relative;
+        }
+        .comp-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--accent);
+            color: var(--dark);
+            padding: 4px 16px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .comp-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 16px;
+        }
+        .comp-card.recommended h3 { color: var(--accent); }
+        .comp-list {
+            list-style: none;
+        }
+        .comp-list li {
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.95rem;
+            color: rgba(255,255,255,0.8);
+        }
+        .comp-list .check { color: #10b981; font-weight: 700; }
+        .comp-list .x { color: rgba(255,255,255,0.3); }
+        .comp-list .disabled { color: rgba(255,255,255,0.4); }
+
+        /* Reasons Section */
+        .reasons-section { margin-bottom: 80px; }
+        .reasons-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+        .reason-card {
+            background: rgba(245,158,11,0.05);
+            border: 1px solid rgba(245,158,11,0.15);
+            border-radius: 14px;
+            padding: 28px 24px;
+        }
+        .reason-card h3 {
+            font-size: 1rem;
+            color: var(--accent);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .reason-card p {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.65);
+            line-height: 1.7;
+        }
+
+        /* Use Cases */
+        .use-cases { margin-bottom: 80px; }
+        .use-case-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .use-case {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 24px;
+        }
+        .use-case h3 {
+            font-size: 1rem;
+            color: var(--accent);
+            margin-bottom: 8px;
+        }
+        .use-case p {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.6);
+            line-height: 1.6;
+        }
+
+        /* How to Steps */
+        .how-to { margin-bottom: 80px; }
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 32px;
+        }
+        .step { text-align: center; }
+        .step-number {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: rgba(245,158,11,0.15);
+            color: var(--accent);
+            font-size: 1.25rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+        }
+        .step h3 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+        .step p {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.6);
+            line-height: 1.5;
+        }
+
+        /* CTA Banner */
+        .cta-section {
+            background: rgba(245,158,11,0.1);
+            border: 1px solid rgba(245,158,11,0.3);
+            border-radius: 16px;
+            padding: 48px 32px;
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        .cta-section h2 {
+            font-size: 1.75rem;
+            margin-bottom: 12px;
+            color: var(--accent);
+        }
+        .cta-section p {
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 24px;
+            font-size: 1.1rem;
+        }
+        .cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 16px 36px;
+            background: var(--accent);
+            color: var(--dark);
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .cta-btn:hover {
+            background: var(--accent-dark);
+            transform: translateY(-2px);
+        }
+
+        /* FAQ */
+        .faq-section { margin-bottom: 60px; }
+        .faq-item {
+            background: rgba(255,255,255,0.04);
+            border-radius: 12px;
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+        .faq-question {
+            padding: 20px 24px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: color 0.2s;
+        }
+        .faq-question:hover { color: var(--accent); }
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--accent);
+            flex-shrink: 0;
+            margin-left: 16px;
+        }
+        .faq-item.open .faq-question::after { content: '\2212'; }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s;
+        }
+        .faq-item.open .faq-answer { max-height: 400px; }
+        .faq-answer p {
+            padding: 0 24px 20px;
+            color: rgba(255,255,255,0.7);
+            line-height: 1.7;
+        }
+
+        /* Footer */
+        footer {
+            background: #000;
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid rgba(245,158,11,0.2);
+        }
+        .footer-brand { margin-bottom: 20px; }
+        .footer-brand a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+        .footer-links a {
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        .footer-links a:hover { color: var(--accent); }
+        .footer-copy {
+            color: rgba(255,255,255,0.4);
+            font-size: 0.85rem;
+        }
+        .footer-copy a {
+            color: rgba(255,255,255,0.5);
+            text-decoration: none;
+        }
+        .footer-copy a:hover { color: var(--accent); }
+        .footer-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .footer-btn {
+            padding: 10px 20px;
+            background: rgba(245,158,11,0.1);
+            border: 1px solid rgba(245,158,11,0.3);
+            border-radius: 8px;
+            color: var(--accent);
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .footer-btn:hover {
+            background: rgba(245,158,11,0.2);
+            border-color: var(--accent);
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .comparison-grid { grid-template-columns: 1fr; }
+            .footer-buttons { flex-direction: column; align-items: center; }
+            .qr-input-row { flex-direction: column; }
+        }
+    </style>
+    <script>window.SNAPIT_TRACKING_ID='SA_8bd5fbc952e8';</script>
+    <script src="https://snapitanalytics.com/analytics.js" defer></script>
+</head>
+<body>
+    <section class="hero">
+        <div class="logo animate-fadeInUp">
+            <img src="/qrcheetah-cute.png" alt="Dynamic QR Code" style="width: 40px; height: 40px; border-radius: 6px;" width="40" height="40" decoding="async">
+            <span class="logo-text" data-i18n="logo.text">Dynamic QR Code</span>
+        </div>
+        <h1 class="opacity-0 animate-fadeInUp delay-100" data-i18n="hero.title">Create, Edit, and Track Your QR Codes</h1>
+        <p class="tagline opacity-0 animate-fadeInUp delay-200" data-i18n="hero.subtitle">Generate a free static QR code right here, or learn why businesses choose dynamic QR codes for marketing materials that never need reprinting.</p>
+
+        <div class="opacity-0 animate-fadeInScale delay-300">
+            <a href="#qr-tool" class="hero-cta" data-i18n="hero.cta">Create a Free QR Code &#8595;</a>
+            <p class="hero-sub" data-i18n="hero.sub">Need editable QR codes? <a href="https://qrcheetah.com">Try QR Cheetah</a></p>
+        </div>
+
+        <div class="trust-row">
+            <span data-i18n="trust.free">&#10003; Free Static QR Codes</span>
+            <span data-i18n="trust.nosignup">&#10003; No Signup Required</span>
+            <span data-i18n="trust.instant">&#10003; Instant Download</span>
+            <span data-i18n="trust.forever">&#10003; Works Forever</span>
+        </div>
+
+    </section>
+
+    <main>
+        <!-- Free Static QR Code Generator -->
+        <section class="qr-generator" id="qr-tool">
+            <h2 data-i18n="gen.title">Free Static QR Code Generator</h2>
+            <p class="gen-subtitle" data-i18n="gen.subtitle">Enter any URL to create a QR code instantly — no account needed</p>
+            <div class="qr-input-row">
+                <input type="url" id="qr-url-input" placeholder="https://example.com" aria-label="Enter URL for QR code" data-i18n="gen.placeholder">
+                <button class="qr-gen-btn" id="qr-gen-btn" onclick="generateQR()" data-i18n="gen.button">Generate QR Code</button>
+            </div>
+            <div class="qr-output">
+                <div class="qr-canvas-wrap" id="qr-canvas-wrap">
+                    <canvas id="qr-canvas" width="256" height="256"></canvas>
+                </div>
+                <div class="qr-download-row" id="qr-download-row">
+                    <a class="qr-download-btn" id="qr-download-png" download="qrcode.png" data-i18n="gen.downloadpng">Download PNG</a>
+                    <a class="qr-download-btn" id="qr-download-svg" download="qrcode.svg" data-i18n="gen.downloadsvg">Download SVG</a>
+                </div>
+                <p class="qr-static-note" id="qr-static-note" style="display:none;" data-i18n="gen.staticnote">
+                    This is a <strong>static</strong> QR code — once created, the destination cannot be changed.<br>
+                    Need to edit your QR code later? <a href="https://qrcheetah.com">Create a dynamic QR code on QR Cheetah</a>.
+                </p>
+                <div class="qr-upgrade-banner" id="qr-upgrade-banner">
+                    <p data-i18n="gen.upgradep">Want to <strong>edit this URL later</strong> without reprinting? Need <strong>scan analytics</strong> to track performance?</p>
+                    <a href="https://qrcheetah.com" class="qr-upgrade-link" data-i18n="gen.upgradelink">Create a Dynamic QR Code on QR Cheetah &#8594;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- What Are Static and Dynamic QR Codes -->
+        <section class="understanding">
+            <h2 class="section-title" data-i18n="understand.title">Understanding Static vs Dynamic QR Codes</h2>
+            <p class="section-subtitle" data-i18n="understand.subtitle">Two types of QR codes, built for different needs</p>
+            <div class="understanding-content">
+                <h3 data-i18n="understand.static.title">What Is a Static QR Code?</h3>
+                <p data-i18n="understand.static.p1">A static QR code encodes the destination URL directly into the pattern. Your device reads the URL from the image and opens it — no server needed, works offline. The catch: once created, the destination is locked in. If the URL changes, you need a new QR code.</p>
+
+                <h3 data-i18n="understand.dynamic.title">What Is a Dynamic QR Code?</h3>
+                <p data-i18n="understand.dynamic.p1">A dynamic QR code encodes a short redirect URL managed by a platform like <a href="https://qrcheetah.com" style="color:var(--accent);text-decoration:none;">QR Cheetah</a>. You control where the redirect points from your dashboard, so you can change the destination anytime without touching the printed QR code.</p>
+
+                <h3 data-i18n="understand.why.title">When to Use Which</h3>
+                <p data-i18n="understand.why.p1">Static is fine for personal links or permanent URLs. Dynamic is better for business — when URLs change, campaigns rotate, or you need scan data.</p>
+            </div>
+        </section>
+
+        <!-- Dynamic vs Static Comparison -->
+        <section class="comparison-section">
+            <h2 class="section-title" data-i18n="compare.title">Side-by-Side Comparison</h2>
+            <p class="section-subtitle" data-i18n="compare.subtitle">See exactly what each type offers</p>
+            <div class="comparison-grid">
+                <div class="comp-card">
+                    <h3 data-i18n="compare.static.title">Static QR Codes</h3>
+                    <ul class="comp-list">
+                        <li><span class="check">&#10003;</span> <span data-i18n="compare.static.1">Free to create</span></li>
+                        <li><span class="check">&#10003;</span> <span data-i18n="compare.static.2">Works without internet</span></li>
+                        <li><span class="check">&#10003;</span> <span data-i18n="compare.static.3">No account required</span></li>
+                        <li><span class="x">&#10005;</span> <span class="disabled" data-i18n="compare.static.4">Cannot edit destination</span></li>
+                        <li><span class="x">&#10005;</span> <span class="disabled" data-i18n="compare.static.5">No scan tracking</span></li>
+                        <li><span class="x">&#10005;</span> <span class="disabled" data-i18n="compare.static.6">No A/B testing</span></li>
+                        <li><span class="x">&#10005;</span> <span class="disabled" data-i18n="compare.static.7">Must reprint for changes</span></li>
+                        <li><span class="x">&#10005;</span> <span class="disabled" data-i18n="compare.static.8">Longer URL = denser pattern</span></li>
+                    </ul>
+                </div>
+                <div class="comp-card recommended">
+                    <div class="comp-badge" data-i18n="compare.badge">Recommended for Business</div>
+                    <h3 data-i18n="compare.dynamic.title">Dynamic QR Codes</h3>
+                    <ul class="comp-list">
+                        <li><span class="check">&#10003;</span> <span data-i18n="compare.dynamic.1">Edit destination anytime</span></li>
+                        <li><span class="check">&#10003;</span> <span data-i18n="compare.dynamic.2">Full scan analytics</span></li>
+                        <li><span class="check">&#10003;</span> <span data-i18n="compare.dynamic.3">A/B test destinations</span></li>
+                        <li><span class="check">&#10003;</span> <span data-i18n="compare.dynamic.4">Never reprint again</span></li>
+                        <li><span class="check">&#10003;</span> <span data-i18n="compare.dynamic.5">Smaller, cleaner QR pattern</span></li>
+                        <li><span class="check">&#10003;</span> <span data-i18n="compare.dynamic.6">Custom branding and logos</span></li>
+                        <li><span class="check">&#10003;</span> <span data-i18n="compare.dynamic.7">Retarget scan audiences</span></li>
+                        <li><span class="check">&#10003;</span> <span data-i18n="compare.dynamic.8">Set expiration or password</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reasons You Didn't Think Of -->
+        <section class="reasons-section">
+            <h2 class="section-title" data-i18n="reasons.title">Reasons You Need Dynamic QR Codes</h2>
+            <p class="section-subtitle" data-i18n="reasons.subtitle">Scenarios you might not have considered until it's too late</p>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <h3 data-i18n="reasons.r1.title">Your URL Stops Working</h3>
+                    <p data-i18n="reasons.r1.desc">Pages get deleted. Domains expire. A dynamic QR code lets you redirect to a working page in seconds.</p>
+                </div>
+                <div class="reason-card">
+                    <h3 data-i18n="reasons.r2.title">You Change Your Domain</h3>
+                    <p data-i18n="reasons.r2.desc">Rebranding or migrating? Update the redirect to your new domain — no reprints needed.</p>
+                </div>
+                <div class="reason-card">
+                    <h3 data-i18n="reasons.r3.title">Marketing Materials Are Expensive</h3>
+                    <p data-i18n="reasons.r3.desc">Brochures, banners, packaging — these cost real money. Update promotions without ordering reprints.</p>
+                </div>
+                <div class="reason-card">
+                    <h3 data-i18n="reasons.r4.title">Campaigns Need to Rotate</h3>
+                    <p data-i18n="reasons.r4.desc">Same QR code on your sign, different landing page each season. Swap destinations from your dashboard.</p>
+                </div>
+                <div class="reason-card">
+                    <h3 data-i18n="reasons.r5.title">You Need to Know What's Working</h3>
+                    <p data-i18n="reasons.r5.desc">Static QR codes give you zero data. Dynamic codes track every scan — location, device, time — so you can measure what's working.</p>
+                </div>
+                <div class="reason-card">
+                    <h3 data-i18n="reasons.r6.title">Mistakes Happen After Printing</h3>
+                    <p data-i18n="reasons.r6.desc">Typo in the URL? Wrong landing page? Fix it from your dashboard — nobody has to know.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section>
+            <h2 class="section-title" data-i18n="features.title">Why QR Cheetah for Dynamic QR Codes</h2>
+            <p class="section-subtitle" data-i18n="features.subtitle">What you get with QR Cheetah</p>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">&#128260;</div>
+                    <h3 data-i18n="features.f1.title">Edit Anytime</h3>
+                    <p data-i18n="features.f1.desc">Change the destination URL after printing. Fix mistakes or update campaigns without reprinting a single flyer.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">&#128202;</div>
+                    <h3 data-i18n="features.f2.title">Scan Analytics</h3>
+                    <p data-i18n="features.f2.desc">Track every scan with geographic location, device type, browser, and time of day data. Export reports.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">&#127912;</div>
+                    <h3 data-i18n="features.f3.title">Custom Branding</h3>
+                    <p data-i18n="features.f3.desc">Upload your logo, match your brand colors, customize dot shapes and corner styles for on-brand QR codes.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">&#128229;</div>
+                    <h3 data-i18n="features.f4.title">High-Res Export</h3>
+                    <p data-i18n="features.f4.desc">Download in SVG, PNG, or PDF at any resolution. Print-ready for business cards, posters, and billboards.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How to Steps -->
+        <section class="how-to">
+            <h2 class="section-title" data-i18n="howto.title">How to Create a Dynamic QR Code</h2>
+            <p class="section-subtitle" data-i18n="howto.subtitle">Four steps to an editable, trackable QR code on QR Cheetah</p>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 data-i18n="howto.step1.title">Enter Your URL</h3>
+                    <p data-i18n="howto.step1.desc">Paste any URL — website, PDF, video, menu, or form link.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 data-i18n="howto.step2.title">Select Dynamic</h3>
+                    <p data-i18n="howto.step2.desc">Choose "Dynamic" to enable editing and scan analytics.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 data-i18n="howto.step3.title">Customize Design</h3>
+                    <p data-i18n="howto.step3.desc">Add your logo, pick brand colors, choose dot and corner styles.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 data-i18n="howto.step4.title">Download & Track</h3>
+                    <p data-i18n="howto.step4.desc">Export in any format. Monitor scans from your dashboard.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Cases -->
+        <section class="use-cases">
+            <h2 class="section-title" data-i18n="usecases.title">Who Uses Dynamic QR Codes</h2>
+            <p class="section-subtitle" data-i18n="usecases.subtitle">Real-world applications across every industry</p>
+            <div class="use-case-grid">
+                <div class="use-case">
+                    <h3 data-i18n="usecases.uc1.title">Restaurant Menus</h3>
+                    <p data-i18n="usecases.uc1.desc">Update menu items, prices, and seasonal specials without reprinting table QR codes. Switch to holiday menus in seconds from your dashboard.</p>
+                </div>
+                <div class="use-case">
+                    <h3 data-i18n="usecases.uc2.title">Business Cards</h3>
+                    <p data-i18n="usecases.uc2.desc">Keep your contact info, portfolio link, and LinkedIn profile current — even after handing out hundreds of cards. Update anytime.</p>
+                </div>
+                <div class="use-case">
+                    <h3 data-i18n="usecases.uc3.title">Product Packaging</h3>
+                    <p data-i18n="usecases.uc3.desc">Link to user manuals, warranty registration, or support pages. Update product documentation without redesigning your packaging.</p>
+                </div>
+                <div class="use-case">
+                    <h3 data-i18n="usecases.uc4.title">Real Estate Signs</h3>
+                    <p data-i18n="usecases.uc4.desc">Update property listings, virtual tour links, and open house schedules on yard signs without replacing physical signage.</p>
+                </div>
+                <div class="use-case">
+                    <h3 data-i18n="usecases.uc5.title">Events & Conferences</h3>
+                    <p data-i18n="usecases.uc5.desc">Print QR codes on badges and programs. Update schedules, speaker bios, and venue maps even during the event.</p>
+                </div>
+                <div class="use-case">
+                    <h3 data-i18n="usecases.uc6.title">Marketing Campaigns</h3>
+                    <p data-i18n="usecases.uc6.desc">Track scan rates across printed ads, flyers, and direct mail. A/B test landing pages to find what converts best.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <div class="cta-section">
+            <h2 data-i18n="cta.title">Ready for Editable QR Codes?</h2>
+            <p data-i18n="cta.desc">Create dynamic QR codes with scan analytics, custom branding, and destinations you can change anytime.</p>
+            <a href="https://qrcheetah.com" class="cta-btn" data-i18n="cta.button">Create a Dynamic QR Code &#8594;</a>
+        </div>
+
+        <!-- FAQ -->
+        <section class="faq-section">
+            <h2 class="section-title" data-i18n="faq.title">Frequently Asked Questions</h2>
+            <p class="section-subtitle" data-i18n="faq.subtitle">Common questions about static and dynamic QR codes</p>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('open')" data-i18n="faq.q1">What is a dynamic QR code?</div>
+                <div class="faq-answer"><p data-i18n="faq.a1">A dynamic QR code uses a short redirect URL instead of encoding the destination directly. You can change where it points anytime — even after printing — and it tracks scan analytics (location, device, frequency).</p></div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('open')" data-i18n="faq.q2">What is a static QR code?</div>
+                <div class="faq-answer"><p data-i18n="faq.a2">A static QR code embeds the URL directly into the pattern. It works offline with no server needed, but the destination is permanent — if the URL changes, you need a new code.</p></div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('open')" data-i18n="faq.q3">Can I edit a QR code after printing?</div>
+                <div class="faq-answer"><p data-i18n="faq.a3">Only with a dynamic QR code. The printed image stays the same — you change where the redirect points from your QR Cheetah dashboard.</p></div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('open')" data-i18n="faq.q4">Do dynamic QR codes expire?</div>
+                <div class="faq-answer"><p data-i18n="faq.a4">No. Dynamic QR codes on QR Cheetah never expire — free or paid. The redirect stays active indefinitely.</p></div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('open')" data-i18n="faq.q5">Is the static QR code generator on this page really free?</div>
+                <div class="faq-answer"><p data-i18n="faq.a5">Yes. It runs in your browser — no data sent to any server, no account needed, no limits.</p></div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('open')" data-i18n="faq.q6">What happens if my destination URL stops working?</div>
+                <div class="faq-answer"><p data-i18n="faq.a6">With a static code, every printed copy points to a dead link. With a dynamic code, you log in and redirect it to a working URL.</p></div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('open')" data-i18n="faq.q7">Can I add a logo to my QR code?</div>
+                <div class="faq-answer"><p data-i18n="faq.a7">Yes. QR Cheetah lets you upload a logo, customize colors, dot shapes, and corner patterns. High error correction keeps the code scannable with a logo overlay.</p></div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('open')" data-i18n="faq.q8">How do I shorten a QR code URL?</div>
+                <div class="faq-answer"><p data-i18n="faq.a8">Dynamic codes already use a short redirect URL, so the pattern is simpler. For static codes, shorten your URL first with <a href="https://urlunicorn.com" style="color:var(--accent);text-decoration:none;">URL Unicorn</a>, then generate the QR code.</p></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-brand" data-i18n="footer.brand">
+            Powered by <a href="https://qrcheetah.com">QR Cheetah</a>
+        </div>
+        <div class="footer-buttons">
+            <button class="footer-btn" onclick="openContact()" data-i18n="footer.contact">Contact Us</button>
+            <button class="footer-btn" onclick="openFeedback()" data-i18n="footer.feedback">Send Feedback</button>
+            <button class="footer-btn" onclick="openSupport()" data-i18n="footer.support">Support</button>
+        </div>
+        <div class="footer-links">
+            <a href="https://qrcheetah.com">QR Cheetah</a>
+            <a href="https://urlunicorn.com">URL Unicorn</a>
+            <a href="/privacy.html" data-i18n="footer.privacy">Privacy</a>
+            <a href="/terms.html" data-i18n="footer.terms">Terms</a>
+        </div>
+        <div class="footer-copy" data-i18n="footer.copy">
+            &copy; 2026 Dynamic QR Code &mdash; Powered by <a href="https://snapitsoftware.com">SnapIT Zoo</a>
+        </div>
+    </footer>
+
+    <!-- QR Code Generator (client-side, no external dependencies) -->
+    <script>
+    // Minimal QR Code generator - encodes data to canvas
+    // Based on the QR code specification (ISO/IEC 18004)
+    var QRCode = (function() {
+        // QR code generator using alphanumeric/byte encoding
+        // Error correction level M (15% recovery)
+
+        var ECL = { L: 1, M: 0, Q: 3, H: 2 };
+
+        // Galois field arithmetic for Reed-Solomon error correction
+        var GF256 = {
+            exp: new Uint8Array(256),
+            log: new Uint8Array(256),
+            init: function() {
+                var x = 1;
+                for (var i = 0; i < 255; i++) {
+                    this.exp[i] = x;
+                    this.log[x] = i;
+                    x = (x << 1) ^ (x >= 128 ? 0x11d : 0);
+                }
+                this.exp[255] = this.exp[0];
+            },
+            mul: function(a, b) {
+                if (a === 0 || b === 0) return 0;
+                return this.exp[(this.log[a] + this.log[b]) % 255];
+            }
+        };
+        GF256.init();
+
+        function rsGenPoly(nsym) {
+            var g = [1];
+            for (var i = 0; i < nsym; i++) {
+                var ng = new Array(g.length + 1);
+                ng[g.length] = 0;
+                for (var j = g.length - 1; j >= 0; j--) {
+                    ng[j + 1] ^= g[j];
+                    ng[j] = GF256.mul(g[j], GF256.exp[i]);
+                }
+                g = ng;
+            }
+            return g;
+        }
+
+        function rsEncode(data, nsym) {
+            var gen = rsGenPoly(nsym);
+            var res = new Uint8Array(nsym);
+            for (var i = 0; i < data.length; i++) {
+                var coef = data[i] ^ res[0];
+                res.copyWithin(0, 1);
+                res[nsym - 1] = 0;
+                if (coef !== 0) {
+                    for (var j = 0; j < nsym; j++) {
+                        res[j] ^= GF256.mul(gen[j], coef);
+                    }
+                }
+            }
+            return res;
+        }
+
+        // Version capacity for byte mode, ECL M
+        var CAPACITIES_M = [0,16,28,44,64,86,108,124,154,182,216,254,290,334,365,415,453,507,563,627,669,714,782,860,914,1000,1062,1128,1193,1267,1373,1455,1541,1631,1725,1812,1914,1992,2102,2216,2334];
+
+        function getVersion(dataLen) {
+            for (var v = 1; v <= 40; v++) {
+                if (dataLen <= CAPACITIES_M[v]) return v;
+            }
+            return 40;
+        }
+
+        // Number of EC codewords per block for ECL M
+        var EC_CODEWORDS_M = [0,10,16,26,18,24,16,18,22,22,26,30,22,22,24,24,28,28,26,26,26,26,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28];
+
+        // Block structure [numBlocks1, dcCount1, numBlocks2, dcCount2]
+        var BLOCK_TABLE_M = {
+            1:[1,16,0,0],2:[1,28,0,0],3:[1,44,0,0],4:[2,32,0,0],5:[2,43,0,0],
+            6:[4,27,0,0],7:[4,31,0,0],8:[2,38,2,39],9:[3,36,2,37],10:[4,43,1,44],
+            11:[1,50,4,51],12:[6,36,2,37],13:[8,37,1,38],14:[4,40,5,41],15:[5,41,5,42],
+            16:[7,45,3,46],17:[10,46,1,47],18:[9,43,4,44],19:[3,44,11,45],20:[3,41,13,42],
+            21:[17,42,0,0],22:[17,46,0,0],23:[4,47,14,48],24:[6,45,14,46],25:[8,47,13,48],
+            26:[19,46,4,47],27:[22,45,3,46],28:[3,45,23,46],29:[21,45,7,46],30:[19,47,10,48],
+            31:[2,46,29,47],32:[10,46,23,47],33:[14,46,21,47],34:[14,46,23,47],35:[12,47,26,48],
+            36:[6,47,34,48],37:[29,46,14,47],38:[13,46,32,47],39:[40,47,7,48],40:[18,47,31,48]
+        };
+
+        // Alignment pattern positions
+        var ALIGN_POS = {
+            2:[6,18],3:[6,22],4:[6,26],5:[6,30],6:[6,34],7:[6,22,38],8:[6,24,42],
+            9:[6,26,46],10:[6,28,50],11:[6,30,54],12:[6,32,58],13:[6,34,62],
+            14:[6,26,46,66],15:[6,26,48,70],16:[6,26,50,74],17:[6,30,54,78],
+            18:[6,30,56,82],19:[6,30,58,86],20:[6,34,62,90],21:[6,28,50,72,94],
+            22:[6,26,50,74,98],23:[6,30,54,78,102],24:[6,28,54,80,106],
+            25:[6,32,58,84,110],26:[6,30,58,86,114],27:[6,34,62,90,118],
+            28:[6,26,50,74,98,122],29:[6,30,54,78,102,126],30:[6,26,52,78,104,130],
+            31:[6,30,56,82,108,134],32:[6,34,60,86,112,138],33:[6,30,58,86,114,142],
+            34:[6,34,62,90,118,146],35:[6,30,54,78,102,126,150],36:[6,24,50,76,102,128,154],
+            37:[6,28,54,80,106,132,158],38:[6,32,58,84,110,136,162],39:[6,26,54,82,110,138,166],
+            40:[6,30,58,86,114,142,170]
+        };
+
+        function createMatrix(version) {
+            var size = version * 4 + 17;
+            var matrix = [];
+            var reserved = [];
+            for (var i = 0; i < size; i++) {
+                matrix[i] = new Uint8Array(size);
+                reserved[i] = new Uint8Array(size);
+            }
+            return { matrix: matrix, reserved: reserved, size: size };
+        }
+
+        function placeFinderPattern(m, r, row, col) {
+            for (var dy = -1; dy <= 7; dy++) {
+                for (var dx = -1; dx <= 7; dx++) {
+                    var y = row + dy, x = col + dx;
+                    if (y < 0 || y >= m.size || x < 0 || x >= m.size) continue;
+                    var val = 0;
+                    if (dy >= 0 && dy <= 6 && dx >= 0 && dx <= 6) {
+                        if (dy === 0 || dy === 6 || dx === 0 || dx === 6 ||
+                            (dy >= 2 && dy <= 4 && dx >= 2 && dx <= 4)) {
+                            val = 1;
+                        }
+                    }
+                    m.matrix[y][x] = val;
+                    r[y][x] = 1;
+                }
+            }
+        }
+
+        function placeAlignmentPattern(m, r, row, col) {
+            for (var dy = -2; dy <= 2; dy++) {
+                for (var dx = -2; dx <= 2; dx++) {
+                    var y = row + dy, x = col + dx;
+                    if (r[y][x]) return; // skip if overlapping finder
+                }
+            }
+            for (var dy = -2; dy <= 2; dy++) {
+                for (var dx = -2; dx <= 2; dx++) {
+                    var y = row + dy, x = col + dx;
+                    var val = (Math.abs(dy) === 2 || Math.abs(dx) === 2 || (dy === 0 && dx === 0)) ? 1 : 0;
+                    m.matrix[y][x] = val;
+                    r[y][x] = 1;
+                }
+            }
+        }
+
+        function placeTimingPatterns(m, r) {
+            for (var i = 8; i < m.size - 8; i++) {
+                var val = (i % 2 === 0) ? 1 : 0;
+                if (!r[6][i]) { m.matrix[6][i] = val; r[6][i] = 1; }
+                if (!r[i][6]) { m.matrix[i][6] = val; r[i][6] = 1; }
+            }
+        }
+
+        function reserveFormatInfo(m, r) {
+            // Around top-left finder
+            for (var i = 0; i <= 8; i++) {
+                if (i < m.size) r[8][i] = 1;
+                if (i < m.size) r[i][8] = 1;
+            }
+            // Around top-right finder
+            for (var i = 0; i <= 7; i++) {
+                r[8][m.size - 1 - i] = 1;
+            }
+            // Around bottom-left finder
+            for (var i = 0; i <= 7; i++) {
+                r[m.size - 1 - i][8] = 1;
+            }
+            // Dark module
+            m.matrix[m.size - 8][8] = 1;
+            r[m.size - 8][8] = 1;
+        }
+
+        var FORMAT_INFO_STRINGS = [
+            0x5412,0x5125,0x5E7C,0x5B4B,0x45F9,0x40CE,0x4F97,0x4AA0,
+            0x77C4,0x72F3,0x7DAA,0x789D,0x662F,0x6318,0x6C41,0x6976,
+            0x1689,0x13BE,0x1CE7,0x19D0,0x0762,0x0255,0x0D0C,0x083B,
+            0x355F,0x3068,0x3F31,0x3A06,0x24B4,0x2183,0x2EDA,0x2BED
+        ];
+
+        function placeFormatInfo(m, r, maskPattern) {
+            var formatIdx = 0 * 8 + maskPattern; // ECL M = index 0
+            var bits = FORMAT_INFO_STRINGS[formatIdx];
+
+            // Place around top-left
+            for (var i = 0; i <= 5; i++) {
+                m.matrix[8][i] = (bits >> (14 - i)) & 1;
+            }
+            m.matrix[8][7] = (bits >> 8) & 1;
+            m.matrix[8][8] = (bits >> 7) & 1;
+            m.matrix[7][8] = (bits >> 6) & 1;
+            for (var i = 0; i <= 5; i++) {
+                m.matrix[5 - i][8] = (bits >> (i)) & 1;
+            }
+
+            // Place around other finders
+            for (var i = 0; i <= 7; i++) {
+                m.matrix[8][m.size - 1 - i] = (bits >> i) & 1;
+            }
+            for (var i = 0; i <= 6; i++) {
+                m.matrix[m.size - 1 - i][8] = (bits >> (14 - i)) & 1;
+            }
+        }
+
+        var VERSION_INFO = [
+            0,0,0,0,0,0,0,
+            0x07C94,0x085BC,0x09A99,0x0A4D3,0x0BBF6,0x0C762,0x0D847,0x0E60D,0x0F928,
+            0x10B78,0x1145D,0x12A17,0x13532,0x149A6,0x15683,0x168C9,0x177EC,
+            0x18EC4,0x191E1,0x1AFAB,0x1B08E,0x1CC1A,0x1D33F,0x1ED75,0x1F250,
+            0x209D5,0x216F0,0x228BA,0x2379F,0x24B0B,0x2542E,0x26A64,0x27541,
+            0x28C69
+        ];
+
+        function placeVersionInfo(m, r, version) {
+            if (version < 7) return;
+            var info = VERSION_INFO[version];
+            for (var i = 0; i < 18; i++) {
+                var bit = (info >> i) & 1;
+                var row = Math.floor(i / 3);
+                var col = m.size - 11 + (i % 3);
+                m.matrix[row][col] = bit;
+                r[row][col] = 1;
+                m.matrix[col][row] = bit;
+                r[col][row] = 1;
+            }
+        }
+
+        function encodeData(text, version) {
+            var totalCodewords = CAPACITIES_M[version] + EC_CODEWORDS_M[version] * (BLOCK_TABLE_M[version][0] + BLOCK_TABLE_M[version][2]);
+            var bits = [];
+
+            function addBits(val, len) {
+                for (var i = len - 1; i >= 0; i--) {
+                    bits.push((val >> i) & 1);
+                }
+            }
+
+            // Mode indicator: byte mode = 0100
+            addBits(4, 4);
+
+            // Character count
+            var ccBits = version <= 9 ? 8 : 16;
+            addBits(text.length, ccBits);
+
+            // Data
+            for (var i = 0; i < text.length; i++) {
+                addBits(text.charCodeAt(i), 8);
+            }
+
+            // Terminator
+            var totalBits = totalCodewords * 8;
+            var termLen = Math.min(4, totalBits - bits.length);
+            addBits(0, termLen);
+
+            // Pad to byte boundary
+            while (bits.length % 8 !== 0) bits.push(0);
+
+            // Pad codewords
+            var padBytes = [0xEC, 0x11];
+            var pi = 0;
+            while (bits.length < totalBits) {
+                addBits(padBytes[pi % 2], 8);
+                pi++;
+            }
+
+            // Convert to bytes
+            var data = new Uint8Array(totalCodewords);
+            for (var i = 0; i < totalCodewords; i++) {
+                var val = 0;
+                for (var j = 0; j < 8; j++) {
+                    val = (val << 1) | (bits[i * 8 + j] || 0);
+                }
+                data[i] = val;
+            }
+
+            return data;
+        }
+
+        function structureData(data, version) {
+            var bt = BLOCK_TABLE_M[version];
+            var ecCount = EC_CODEWORDS_M[version];
+            var blocks1 = bt[0], dc1 = bt[1];
+            var blocks2 = bt[2], dc2 = bt[3];
+
+            var blocks = [];
+            var offset = 0;
+
+            for (var i = 0; i < blocks1; i++) {
+                blocks.push({ data: data.slice(offset, offset + dc1), ec: null });
+                offset += dc1;
+            }
+            for (var i = 0; i < blocks2; i++) {
+                blocks.push({ data: data.slice(offset, offset + dc2), ec: null });
+                offset += dc2;
+            }
+
+            // Generate EC for each block
+            for (var i = 0; i < blocks.length; i++) {
+                blocks[i].ec = rsEncode(blocks[i].data, ecCount);
+            }
+
+            // Interleave data codewords
+            var result = [];
+            var maxDc = Math.max(dc1, dc2 || 0);
+            for (var i = 0; i < maxDc; i++) {
+                for (var j = 0; j < blocks.length; j++) {
+                    if (i < blocks[j].data.length) {
+                        result.push(blocks[j].data[i]);
+                    }
+                }
+            }
+
+            // Interleave EC codewords
+            for (var i = 0; i < ecCount; i++) {
+                for (var j = 0; j < blocks.length; j++) {
+                    result.push(blocks[j].ec[i]);
+                }
+            }
+
+            return result;
+        }
+
+        function placeData(m, r, codewords) {
+            var bits = [];
+            for (var i = 0; i < codewords.length; i++) {
+                for (var j = 7; j >= 0; j--) {
+                    bits.push((codewords[i] >> j) & 1);
+                }
+            }
+
+            var bitIdx = 0;
+            var upward = true;
+
+            for (var col = m.size - 1; col >= 0; col -= 2) {
+                if (col === 6) col = 5; // skip timing column
+
+                var rows = upward ?
+                    Array.from({length: m.size}, function(_, i) { return m.size - 1 - i; }) :
+                    Array.from({length: m.size}, function(_, i) { return i; });
+
+                for (var ri = 0; ri < rows.length; ri++) {
+                    var row = rows[ri];
+                    for (var dc = 0; dc <= 1; dc++) {
+                        var c = col - dc;
+                        if (c < 0) continue;
+                        if (r[row][c]) continue;
+                        if (bitIdx < bits.length) {
+                            m.matrix[row][c] = bits[bitIdx];
+                            bitIdx++;
+                        }
+                    }
+                }
+                upward = !upward;
+            }
+        }
+
+        var MASK_FUNCTIONS = [
+            function(r, c) { return (r + c) % 2 === 0; },
+            function(r, c) { return r % 2 === 0; },
+            function(r, c) { return c % 3 === 0; },
+            function(r, c) { return (r + c) % 3 === 0; },
+            function(r, c) { return (Math.floor(r / 2) + Math.floor(c / 3)) % 2 === 0; },
+            function(r, c) { return (r * c) % 2 + (r * c) % 3 === 0; },
+            function(r, c) { return ((r * c) % 2 + (r * c) % 3) % 2 === 0; },
+            function(r, c) { return ((r + c) % 2 + (r * c) % 3) % 2 === 0; }
+        ];
+
+        function applyMask(m, r, maskIdx) {
+            var fn = MASK_FUNCTIONS[maskIdx];
+            for (var row = 0; row < m.size; row++) {
+                for (var col = 0; col < m.size; col++) {
+                    if (!r[row][col] && fn(row, col)) {
+                        m.matrix[row][col] ^= 1;
+                    }
+                }
+            }
+        }
+
+        function scoreMask(m) {
+            var score = 0;
+            var size = m.size;
+
+            // Rule 1: runs of same color
+            for (var r = 0; r < size; r++) {
+                var run = 1;
+                for (var c = 1; c < size; c++) {
+                    if (m.matrix[r][c] === m.matrix[r][c-1]) { run++; }
+                    else { if (run >= 5) score += run - 2; run = 1; }
+                }
+                if (run >= 5) score += run - 2;
+            }
+            for (var c = 0; c < size; c++) {
+                var run = 1;
+                for (var r = 1; r < size; r++) {
+                    if (m.matrix[r][c] === m.matrix[r-1][c]) { run++; }
+                    else { if (run >= 5) score += run - 2; run = 1; }
+                }
+                if (run >= 5) score += run - 2;
+            }
+
+            // Rule 4: proportion of dark modules
+            var dark = 0;
+            for (var r = 0; r < size; r++) {
+                for (var c = 0; c < size; c++) {
+                    if (m.matrix[r][c]) dark++;
+                }
+            }
+            var pct = (dark * 100) / (size * size);
+            var prev5 = Math.floor(pct / 5) * 5;
+            var next5 = prev5 + 5;
+            score += Math.min(Math.abs(prev5 - 50) / 5, Math.abs(next5 - 50) / 5) * 10;
+
+            return score;
+        }
+
+        function generate(text) {
+            var bytes = unescape(encodeURIComponent(text));
+            var version = getVersion(bytes.length);
+            var m = createMatrix(version);
+            var r = m.reserved;
+
+            // Place patterns
+            placeFinderPattern(m, r, 0, 0);
+            placeFinderPattern(m, r, 0, m.size - 7);
+            placeFinderPattern(m, r, m.size - 7, 0);
+
+            if (ALIGN_POS[version]) {
+                var pos = ALIGN_POS[version];
+                for (var i = 0; i < pos.length; i++) {
+                    for (var j = 0; j < pos.length; j++) {
+                        placeAlignmentPattern(m, r, pos[i], pos[j]);
+                    }
+                }
+            }
+
+            placeTimingPatterns(m, r);
+            reserveFormatInfo(m, r);
+            placeVersionInfo(m, r, version);
+
+            // Encode and place data
+            var data = encodeData(bytes, version);
+            var codewords = structureData(data, version);
+            placeData(m, r, codewords);
+
+            // Find best mask
+            var bestMask = 0;
+            var bestScore = Infinity;
+            for (var mi = 0; mi < 8; mi++) {
+                // Clone matrix
+                var clone = createMatrix(version);
+                for (var row = 0; row < m.size; row++) {
+                    for (var col = 0; col < m.size; col++) {
+                        clone.matrix[row][col] = m.matrix[row][col];
+                    }
+                }
+                applyMask(clone, r, mi);
+                placeFormatInfo(clone, r, mi);
+                var s = scoreMask(clone);
+                if (s < bestScore) {
+                    bestScore = s;
+                    bestMask = mi;
+                }
+            }
+
+            applyMask(m, r, bestMask);
+            placeFormatInfo(m, r, bestMask);
+
+            return m;
+        }
+
+        function renderToCanvas(canvas, text, moduleSize) {
+            moduleSize = moduleSize || 8;
+            var m = generate(text);
+            var quiet = 4;
+            var totalSize = (m.size + quiet * 2) * moduleSize;
+            canvas.width = totalSize;
+            canvas.height = totalSize;
+            var ctx = canvas.getContext('2d');
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(0, 0, totalSize, totalSize);
+            ctx.fillStyle = '#000000';
+            for (var r = 0; r < m.size; r++) {
+                for (var c = 0; c < m.size; c++) {
+                    if (m.matrix[r][c]) {
+                        ctx.fillRect((c + quiet) * moduleSize, (r + quiet) * moduleSize, moduleSize, moduleSize);
+                    }
+                }
+            }
+            return m;
+        }
+
+        function toSVG(text) {
+            var m = generate(text);
+            var quiet = 4;
+            var total = m.size + quiet * 2;
+            var rects = '';
+            for (var r = 0; r < m.size; r++) {
+                for (var c = 0; c < m.size; c++) {
+                    if (m.matrix[r][c]) {
+                        rects += '<rect x="' + (c + quiet) + '" y="' + (r + quiet) + '" width="1" height="1"/>';
+                    }
+                }
+            }
+            return '<?xml version="1.0" encoding="UTF-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' + total + ' ' + total + '" shape-rendering="crispEdges">\n<rect width="100%" height="100%" fill="#fff"/>\n<g fill="#000">' + rects + '</g>\n</svg>';
+        }
+
+        return {
+            renderToCanvas: renderToCanvas,
+            toSVG: toSVG
+        };
+    })();
+
+    // --- Generator UI Logic ---
+    var qrInput = document.getElementById('qr-url-input');
+    var qrCanvasWrap = document.getElementById('qr-canvas-wrap');
+    var qrCanvas = document.getElementById('qr-canvas');
+    var qrDownloadRow = document.getElementById('qr-download-row');
+    var qrStaticNote = document.getElementById('qr-static-note');
+    var qrUpgradeBanner = document.getElementById('qr-upgrade-banner');
+    var currentSVG = '';
+
+    // Allow Enter key to generate
+    qrInput.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') generateQR();
+    });
+
+    function generateQR() {
+        var url = qrInput.value.trim();
+        if (!url) {
+            qrInput.focus();
+            return;
+        }
+
+        // Auto-add https:// if no protocol
+        if (!/^https?:\/\//i.test(url) && !/^[a-z][a-z0-9+.-]*:/i.test(url)) {
+            url = 'https://' + url;
+            qrInput.value = url;
+        }
+
+        try {
+            QRCode.renderToCanvas(qrCanvas, url, 8);
+            currentSVG = QRCode.toSVG(url);
+
+            // Show output
+            qrCanvasWrap.style.display = 'block';
+            qrDownloadRow.style.display = 'flex';
+            qrStaticNote.style.display = 'block';
+            qrUpgradeBanner.style.display = 'block';
+
+            // PNG download
+            var pngBtn = document.getElementById('qr-download-png');
+            pngBtn.href = qrCanvas.toDataURL('image/png');
+
+            // SVG download
+            var svgBtn = document.getElementById('qr-download-svg');
+            var svgBlob = new Blob([currentSVG], { type: 'image/svg+xml' });
+            svgBtn.href = URL.createObjectURL(svgBlob);
+        } catch (e) {
+            // URL too long or encoding error
+            qrCanvasWrap.style.display = 'none';
+            qrDownloadRow.style.display = 'none';
+        }
+    }
+    </script>
+
+    <script>
+    window.TRANSLATIONS = {
+      es: {
+        'logo.text': 'Código QR Dinámico',
+        'hero.title': 'Crea, Edita y Rastrea tus Códigos QR',
+        'hero.subtitle': 'Genera un código QR estático gratis aquí mismo, o descubre por qué las empresas eligen códigos QR dinámicos para materiales de marketing que nunca necesitan reimpresión.',
+        'hero.cta': 'Crear un Código QR Gratis &#8595;',
+        'hero.sub': '¿Necesitas códigos QR editables? <a href="https://qrcheetah.com">Prueba QR Cheetah</a>',
+        'trust.free': '&#10003; Códigos QR Estáticos Gratis',
+        'trust.nosignup': '&#10003; Sin Registro',
+        'trust.instant': '&#10003; Descarga Instantánea',
+        'trust.forever': '&#10003; Funcionan Para Siempre',
+
+        'gen.title': 'Generador Gratuito de Códigos QR Estáticos',
+        'gen.subtitle': 'Ingresa cualquier URL para crear un código QR al instante — sin necesidad de cuenta',
+        'gen.placeholder': 'https://ejemplo.com',
+        'gen.button': 'Generar Código QR',
+        'gen.downloadpng': 'Descargar PNG',
+        'gen.downloadsvg': 'Descargar SVG',
+        'gen.staticnote': 'Este es un código QR <strong>estático</strong> — una vez creado, el destino no se puede cambiar.<br>¿Necesitas editar tu código QR después? <a href="https://qrcheetah.com">Crea un código QR dinámico en QR Cheetah</a>.',
+        'gen.upgradep': '¿Quieres <strong>editar esta URL después</strong> sin reimprimir? ¿Necesitas <strong>analíticas de escaneo</strong> para medir el rendimiento?',
+        'gen.upgradelink': 'Crear un Código QR Dinámico en QR Cheetah &#8594;',
+
+        'understand.title': 'Códigos QR Estáticos vs Dinámicos',
+        'understand.subtitle': 'Dos tipos de códigos QR, diseñados para necesidades diferentes',
+        'understand.static.title': '¿Qué es un código QR estático?',
+        'understand.static.p1': 'Un código QR estático codifica la URL de destino directamente en el patrón. Tu dispositivo lee la URL de la imagen y la abre — sin servidor, funciona sin conexión. La desventaja: una vez creado, el destino queda fijo. Si la URL cambia, necesitas un código QR nuevo.',
+        'understand.dynamic.title': '¿Qué es un código QR dinámico?',
+        'understand.dynamic.p1': 'Un código QR dinámico codifica una URL de redirección corta gestionada por una plataforma como <a href="https://qrcheetah.com" style="color:var(--accent);text-decoration:none;">QR Cheetah</a>. Tú controlas a dónde apunta la redirección desde tu panel, así que puedes cambiar el destino en cualquier momento sin modificar el código QR impreso.',
+        'understand.why.title': 'Cuándo Usar Cada Uno',
+        'understand.why.p1': 'Estático es ideal para enlaces personales o URLs permanentes. Dinámico es mejor para empresas — cuando las URLs cambian, las campañas rotan o necesitas datos de escaneo.',
+
+        'compare.title': 'Comparación Lado a Lado',
+        'compare.subtitle': 'Mira exactamente lo que ofrece cada tipo',
+        'compare.static.title': 'Códigos QR Estáticos',
+        'compare.static.1': 'Gratis para crear',
+        'compare.static.2': 'Funciona sin internet',
+        'compare.static.3': 'Sin necesidad de cuenta',
+        'compare.static.4': 'No se puede editar el destino',
+        'compare.static.5': 'Sin rastreo de escaneos',
+        'compare.static.6': 'Sin pruebas A/B',
+        'compare.static.7': 'Hay que reimprimir para cambios',
+        'compare.static.8': 'URL más larga = patrón más denso',
+        'compare.badge': 'Recomendado para Empresas',
+        'compare.dynamic.title': 'Códigos QR Dinámicos',
+        'compare.dynamic.1': 'Edita el destino cuando quieras',
+        'compare.dynamic.2': 'Analíticas completas de escaneo',
+        'compare.dynamic.3': 'Pruebas A/B de destinos',
+        'compare.dynamic.4': 'Nunca más reimprimir',
+        'compare.dynamic.5': 'Patrón QR más limpio y pequeño',
+        'compare.dynamic.6': 'Marca personalizada y logos',
+        'compare.dynamic.7': 'Retargeting de audiencias',
+        'compare.dynamic.8': 'Configura expiración o contraseña',
+
+        'reasons.title': 'Razones para Usar Códigos QR Dinámicos',
+        'reasons.subtitle': 'Situaciones que quizás no hayas considerado hasta que sea demasiado tarde',
+        'reasons.r1.title': 'Tu URL deja de funcionar',
+        'reasons.r1.desc': 'Las páginas se eliminan. Los dominios caducan. Un código QR dinámico te permite redirigir a una página funcional en segundos.',
+        'reasons.r2.title': 'Cambias de dominio',
+        'reasons.r2.desc': '¿Renovando tu marca o migrando? Actualiza la redirección a tu nuevo dominio — sin reimpresiones.',
+        'reasons.r3.title': 'Los materiales de marketing son caros',
+        'reasons.r3.desc': 'Folletos, banners, empaques — cuestan dinero real. Actualiza promociones sin pedir reimpresiones.',
+        'reasons.r4.title': 'Las campañas necesitan rotar',
+        'reasons.r4.desc': 'El mismo código QR en tu letrero, diferente página de destino cada temporada. Cambia destinos desde tu panel.',
+        'reasons.r5.title': 'Necesitas saber qué funciona',
+        'reasons.r5.desc': 'Los códigos QR estáticos no dan datos. Los dinámicos registran cada escaneo — ubicación, dispositivo, hora — para que puedas medir qué funciona.',
+        'reasons.r6.title': 'Los errores ocurren después de imprimir',
+        'reasons.r6.desc': '¿Error en la URL? ¿Página equivocada? Corrígelo desde tu panel — nadie tiene que saberlo.',
+
+        'features.title': 'Por Qué QR Cheetah para Códigos QR Dinámicos',
+        'features.subtitle': 'Lo que obtienes con QR Cheetah',
+        'features.f1.title': 'Edita en Cualquier Momento',
+        'features.f1.desc': 'Cambia la URL de destino después de imprimir. Corrige errores o actualiza campañas sin reimprimir un solo folleto.',
+        'features.f2.title': 'Analíticas de Escaneo',
+        'features.f2.desc': 'Rastrea cada escaneo con ubicación geográfica, tipo de dispositivo, navegador y hora del día. Exporta informes.',
+        'features.f3.title': 'Marca Personalizada',
+        'features.f3.desc': 'Sube tu logo, usa los colores de tu marca, personaliza formas de puntos y esquinas para códigos QR con tu identidad.',
+        'features.f4.title': 'Exportación en Alta Resolución',
+        'features.f4.desc': 'Descarga en SVG, PNG o PDF en cualquier resolución. Listo para imprimir en tarjetas, pósters y vallas publicitarias.',
+
+        'howto.title': 'Cómo Crear un Código QR Dinámico',
+        'howto.subtitle': 'Cuatro pasos para un código QR editable y rastreable en QR Cheetah',
+        'howto.step1.title': 'Ingresa tu URL',
+        'howto.step1.desc': 'Pega cualquier URL — sitio web, PDF, video, menú o formulario.',
+        'howto.step2.title': 'Selecciona Dinámico',
+        'howto.step2.desc': 'Elige "Dinámico" para habilitar la edición y las analíticas de escaneo.',
+        'howto.step3.title': 'Personaliza el Diseño',
+        'howto.step3.desc': 'Agrega tu logo, elige colores de marca, selecciona estilos de puntos y esquinas.',
+        'howto.step4.title': 'Descarga y Rastrea',
+        'howto.step4.desc': 'Exporta en cualquier formato. Monitorea los escaneos desde tu panel de control.',
+
+        'usecases.title': 'Quién Usa Códigos QR Dinámicos',
+        'usecases.subtitle': 'Aplicaciones reales en todas las industrias',
+        'usecases.uc1.title': 'Menús de Restaurantes',
+        'usecases.uc1.desc': 'Actualiza platos, precios y especiales de temporada sin reimprimir los códigos QR de las mesas. Cambia al menú navideño en segundos desde tu panel.',
+        'usecases.uc2.title': 'Tarjetas de Presentación',
+        'usecases.uc2.desc': 'Mantén tu información de contacto, enlace de portafolio y perfil de LinkedIn actualizados — incluso después de repartir cientos de tarjetas. Actualiza cuando quieras.',
+        'usecases.uc3.title': 'Empaques de Productos',
+        'usecases.uc3.desc': 'Enlaza a manuales de usuario, registro de garantía o páginas de soporte. Actualiza la documentación del producto sin rediseñar tu empaque.',
+        'usecases.uc4.title': 'Carteles de Bienes Raíces',
+        'usecases.uc4.desc': 'Actualiza listados de propiedades, enlaces de tours virtuales y horarios de visitas en los carteles sin reemplazar la señalización física.',
+        'usecases.uc5.title': 'Eventos y Conferencias',
+        'usecases.uc5.desc': 'Imprime códigos QR en credenciales y programas. Actualiza horarios, biografías de ponentes y mapas del lugar incluso durante el evento.',
+        'usecases.uc6.title': 'Campañas de Marketing',
+        'usecases.uc6.desc': 'Rastrea tasas de escaneo en anuncios impresos, folletos y correo directo. Haz pruebas A/B de páginas de aterrizaje para encontrar lo que mejor convierte.',
+
+        'cta.title': '¿Listo para Códigos QR Editables?',
+        'cta.desc': 'Crea códigos QR dinámicos con analíticas de escaneo, marca personalizada y destinos que puedes cambiar en cualquier momento.',
+        'cta.button': 'Crear un Código QR Dinámico &#8594;',
+
+        'faq.title': 'Preguntas Frecuentes',
+        'faq.subtitle': 'Preguntas comunes sobre códigos QR estáticos y dinámicos',
+        'faq.q1': '¿Qué es un código QR dinámico?',
+        'faq.a1': 'Un código QR dinámico usa una URL de redirección corta en lugar de codificar el destino directamente. Puedes cambiar a dónde apunta en cualquier momento — incluso después de imprimir — y rastrea analíticas de escaneo (ubicación, dispositivo, frecuencia).',
+        'faq.q2': '¿Qué es un código QR estático?',
+        'faq.a2': 'Un código QR estático integra la URL directamente en el patrón. Funciona sin conexión ni servidor, pero el destino es permanente — si la URL cambia, necesitas un código nuevo.',
+        'faq.q3': '¿Puedo editar un código QR después de imprimirlo?',
+        'faq.a3': 'Solo con un código QR dinámico. La imagen impresa no cambia — tú cambias a dónde apunta la redirección desde tu panel de QR Cheetah.',
+        'faq.q4': '¿Los códigos QR dinámicos caducan?',
+        'faq.a4': 'No. Los códigos QR dinámicos en QR Cheetah nunca caducan — gratuitos o de pago. La redirección permanece activa indefinidamente.',
+        'faq.q5': '¿El generador de códigos QR estáticos de esta página es realmente gratis?',
+        'faq.a5': 'Sí. Se ejecuta en tu navegador — sin datos enviados a servidores, sin cuenta, sin límites.',
+        'faq.q6': '¿Qué pasa si mi URL de destino deja de funcionar?',
+        'faq.a6': 'Con un código estático, cada copia impresa apunta a un enlace roto. Con uno dinámico, inicias sesión y lo rediriges a una URL funcional.',
+        'faq.q7': '¿Puedo agregar un logo a mi código QR?',
+        'faq.a7': 'Sí. QR Cheetah te permite subir un logo, personalizar colores, formas de puntos y patrones de esquinas. La corrección de errores alta mantiene el código escaneable con el logo superpuesto.',
+        'faq.q8': '¿Cómo acorto la URL de un código QR?',
+        'faq.a8': 'Los códigos dinámicos ya usan una URL de redirección corta, así que el patrón es más simple. Para códigos estáticos, acorta tu URL primero con <a href="https://urlunicorn.com" style="color:var(--accent);text-decoration:none;">URL Unicorn</a> y luego genera el código QR.',
+
+        'footer.brand': 'Desarrollado por <a href="https://qrcheetah.com">QR Cheetah</a>',
+        'footer.contact': 'Contáctanos',
+        'footer.feedback': 'Enviar Comentarios',
+        'footer.support': 'Soporte',
+        'footer.privacy': 'Política de Privacidad',
+        'footer.terms': 'Términos de Servicio',
+        'footer.copy': '&copy; 2026 Dynamic QR Code &mdash; Desarrollado por <a href="https://snapitsoftware.com">SnapIT Zoo</a>'
+      }
+    };
+    </script>
+    <script src="i18n.js"></script>
+
+    <script src="/contact-widget.js" data-app="Dynamic QR Code" data-accent="#f59e0b"></script>
+</body>
+</html>
