@@ -1,5 +1,8 @@
 # Dynamic QR Code
 
+[![dynamicqrcode](og-image.png)](https://dynamicqrcode.app)
+
+
 Learn about dynamic QR codes and create free static QR codes instantly. Companion educational site for QR Cheetah - explains the difference between static and dynamic QR codes.
 
 **Live:** [dynamicqrcode.app](https://dynamicqrcode.app)
